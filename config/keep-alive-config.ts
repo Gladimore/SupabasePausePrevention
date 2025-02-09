@@ -7,7 +7,7 @@ export const keepAliveConfig = {
   table: 'keep-alive',
 
   // Column that will be queried with a random string
-  column: 'name',
+  column: 'alive',
 
   // Configuration for actions taken on the database
   allowInsertionAndDeletion: true, // Set this to false unless you're using a 'keep-alive'-dedicated table
